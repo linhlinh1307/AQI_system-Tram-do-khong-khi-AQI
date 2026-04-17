@@ -42,7 +42,7 @@ void showBootAnimation() {
   delay(1500); 
 }
 
-void updateDisplay(int temp, int humidity, uint16_t tvoc, uint16_t eco2, int co2, int co, int PM25, int PM10) {
+void updateDisplay(float temp, int humidity, uint16_t tvoc, uint16_t eco2, int co2, int co, int PM25, int PM10) {
   display.clearDisplay();
   display.setTextSize(1); 
 
